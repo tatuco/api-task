@@ -1,4 +1,5 @@
 const {setPriority, errorHandler, getPriority} = require("../core/Utils")
+const moment = require('moment')
 const Task = require('../models/Task')
 const TaskController = {}
 
@@ -22,7 +23,7 @@ TaskController.index = async (req, res, next) => {
     try {
         const tasks = await Task.find({
             userId: res.locals.jwtPayload.id,
-          //  status: { $lt: '2020-11-27T22:47:59.811Z' }
+            //  status: { $lt: '2020-11-27T22:47:59.811Z' }
         }).select('name description status priority expiredAt createdAt')
             .sort({priority: 'desc', expiredAt: 'asc'})
         return res.status(200).send({
@@ -40,13 +41,13 @@ TaskController.taksPending = async (userId) => {
     try {
         const tasks = await Task.find({
             userId,
-            expiredAt: { $lt: '2020-11-27T22:47:59.811Z' }
+            expiredAt: {$lt: moment().format('YYYY-MM-DDTHH:mm:ssZ')}
         }).select('name description status priority expiredAt createdAt')
             .sort({priority: 'desc', expiredAt: 'asc'})
         return tasks.map((i) => {
-                i.priority = getPriority(i.priority)
-                return i
-            })
+            i.priority = getPriority(i.priority)
+            return i
+        })
     } catch (e) {
         return false
     }

@@ -19,9 +19,4 @@ app.use(morgan(':method :url :status :response-time ms - :res[content-length]'))
 app.use(express.json({limit: "10mb"}))
 app.use("/", routes)
 app.use(errorHandler)
-app.use(function (req, res) {
-    res.status(404).send({
-        message: "Recurso " + req.url + " no Encontrado"
-    });
-});
 module.exports = server

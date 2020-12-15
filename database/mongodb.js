@@ -5,7 +5,6 @@ const config = {
     useUnifiedTopology: true,
     useCreateIndex: true
 }
-
 mongoose.connect(`mongodb://${DB_HOST}/${DB_NAME}`, config, error => {
     if (error) {
         console.log(`Error en la conexion con Mongo.`)

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f3290e-eb60-4170-b95c-c7233d0b9bb2" name="Default Changelist" comment="" />
+    <list default="true" id="84f3290e-eb60-4170-b95c-c7233d0b9bb2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/TaskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/TaskController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/RouterProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/RouterProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1knjCOcqxUuxkNhKQ3A8skNiC4C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,7 +40,13 @@
     <property name="DatabaseDriversLRU" value="mongo" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -42,29 +65,44 @@
       <workItem from="1606343122646" duration="6398000" />
       <workItem from="1606399474244" duration="9218000" />
       <workItem from="1606412276796" duration="21265000" />
-      <workItem from="1606706190491" duration="3228000" />
+      <workItem from="1606706190491" duration="4524000" />
+      <workItem from="1607114264698" duration="1253000" />
+      <workItem from="1607893016811" duration="9660000" />
+      <workItem from="1608047766443" duration="5014000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="90" y="183" width="804" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606412820008">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="90" y="183" width="804" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1043@0.0.1920.1043" timestamp="1606412820008" />
-    <state x="743" y="280" width="428" height="484" key="FileChooserDialogImpl" timestamp="1606706222093">
+    <state x="743" y="280" width="428" height="484" key="FileChooserDialogImpl" timestamp="1607895622794">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="743" y="280" width="428" height="484" key="FileChooserDialogImpl/0.0.1920.1043@0.0.1920.1043" timestamp="1606706222093" />
-    <state x="665" y="245" width="590" height="554" key="find.popup" timestamp="1606407732399">
+    <state x="743" y="280" width="428" height="484" key="FileChooserDialogImpl/0.0.1920.1043@0.0.1920.1043" timestamp="1607895622794" />
+    <state x="778" y="489" width="590" height="554" key="find.popup" timestamp="1607895644320">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="665" y="245" width="590" height="554" key="find.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1606407732398" />
-    <state x="158" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1606710152646">
+    <state x="778" y="489" width="590" height="554" key="find.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1607895644320" />
+    <state x="158" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1608053264930">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="158" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1606710152646" />
+    <state x="158" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1608053264930" />
   </component>
 </project>

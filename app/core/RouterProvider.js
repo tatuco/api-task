@@ -6,6 +6,11 @@ fs.readdirSync(path.resolve(__dirname + '../../../routes')).forEach(function(fil
     const name = file.split(".")[0]
     const routes = require('../../routes/' + name)
     Router.use(`/${name}`, routes)
+    Router.use(function (req, res) {
+        res.status(404).send({
+            message: "Recurso " + req.url + " no Encontrado"
+        });
+    })
 });
 
 module.exports = Router
